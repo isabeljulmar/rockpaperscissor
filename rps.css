@@ -1,4 +1,21 @@
 
 head {
-	justify-content: center
+	justify-content: center;
+}
+
+body {
+	flex-direction: row;
+}
+
+#option {
+	align-items: center;
+	color: white;
+	display: flex;
+	flex-direction: row default;
+	height: 400px;
+	justify-content: space-around;
+}
+
+#option img {
+	width: 250px;
 }
